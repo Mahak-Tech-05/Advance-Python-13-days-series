@@ -1,46 +1,48 @@
 <h1 align="center">🚀 Advanced Python Series</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=FF0000&size=28&center=true&vCenter=true&width=700&lines=Master+Python+in+13+Days;Build+Real+World+Projects;From+Beginner+to+Advanced+🔥" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=00BFFF&size=28&center=true&vCenter=true&width=700&lines=Master+Python+in+13+Days;Build+Real+World+Projects;Become+Industry+Ready+🔥" />
 </p>
 
 <p align="center">
-  <img src="YOUR_3D_BANNER_IMAGE" width="90%" />
+  <img src="https://images.stockcake.com/public/6/c/6/6c66f17f-0096-4d10-b963-9c82bf1cf4e8_large/coding-night-glow-stockcake.jpg" width="100%" />
 </p>
+
+<h3 align="center">✨ Code. Build. Dominate. ✨</h3>
 
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/YOUR_REPO?style=for-the-badge&color=red"/>
+  <img src="https://img.shields.io/github/stars/YOUR_REPO?style=for-the-badge&color=blue"/>
   <img src="https://img.shields.io/github/forks/YOUR_REPO?style=for-the-badge&color=black"/>
-  <img src="https://img.shields.io/badge/Python-Advanced-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Python-Advanced-00BFFF?style=for-the-badge"/>
 </p>
 
 ---
 
 ## 🧠 About This Project
 
-✨ A **13-Day Advanced Python Series** designed to transform your skills from basic to professional level.
+🚀 This **13-Day Advanced Python Series** is designed to take you from basic to advanced level with a **practical, project-based approach**.
 
-💡 This is not just theory — it's a **project-based learning journey** where you will build real applications.
+💡 Learn by building real-world applications and mastering modern Python tools.
 
 ---
 
-## ⚡ What Makes This Special
+## ⚡ What You Will Learn
 
-🔥 Real-world projects  
-🔥 Clean & structured roadmap  
-🔥 Beginner → Advanced journey  
-🔥 Hands-on learning  
-🔥 Industry-relevant skills  
+✨ Python Fundamentals (Quick Revision)  
+✨ Object-Oriented Programming (OOP)  
+✨ File Handling & Automation  
+✨ APIs & JSON  
+✨ Web Scraping  
+✨ GUI Development (Tkinter)  
+✨ Database (MySQL)  
+✨ Flask Web Development  
+✨ Real-World Projects  
 
 ---
 
 ## 🎯 13-Day Roadmap
-
-<p align="center">
-  <img src="YOUR_ROADMAP_IMAGE" width="80%" />
-</p>
 
 | Day | Topic |
 |-----|------|
@@ -60,7 +62,7 @@
 
 ---
 
-## 🎬 3D Preview
+## 🎬 Preview
 
 <p align="center">
   <img src="YOUR_GIF_1" width="45%" />
@@ -89,11 +91,11 @@
 
 ## 🌟 Features
 
+✔ Beginner to Advanced  
 ✔ Project-Based Learning  
-✔ Beginner Friendly  
-✔ Advanced Concepts  
 ✔ Real Applications  
 ✔ Clean Code  
+✔ Industry-Level Concepts  
 
 ---
 
@@ -109,7 +111,7 @@
 
 ## 💖 Support
 
-If you find this helpful, give it a ⭐ and share with others!
+If you find this helpful, please give it a ⭐ and share with others!
 
 ---
 
@@ -117,7 +119,7 @@ If you find this helpful, give it a ⭐ and share with others!
 
 <p align="center">
   <a href="YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-red?style=for-the-badge&logo=linkedin"/>
+    <img src="https://img.shields.io/badge/LinkedIn-00BFFF?style=for-the-badge&logo=linkedin"/>
   </a>
   <a href="YOUR_GITHUB">
     <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/>
@@ -127,5 +129,5 @@ If you find this helpful, give it a ⭐ and share with others!
 ---
 
 <p align="center">
-  🔥 Built with passion by <b>Your Name</b>
+  🔥 Built with passion by <b>Mahak</b>
 </p>
