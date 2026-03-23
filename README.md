@@ -13,8 +13,8 @@
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/YOUR_REPO?style=for-the-badge&color=blue"/>
-  <img src="https://img.shields.io/github/forks/YOUR_REPO?style=for-the-badge&color=black"/>
+  <img src="https://img.shields.io/github/stars/Mahak-Tech-05/Advance-Python-13-days-series?style=for-the-badge&color=blue"/>
+  <img src="https://img.shields.io/github/forks/Mahak-Tech-05/Advance-Python-13-days-series?style=for-the-badge&color=black"/>
   <img src="https://img.shields.io/badge/Python-Advanced-00BFFF?style=for-the-badge"/>
 </p>
 
@@ -62,15 +62,6 @@
 
 ---
 
-## 🎬 Preview
-
-<p align="center">
-  <img src="YOUR_GIF_1" width="45%" />
-  <img src="YOUR_GIF_2" width="45%" />
-</p>
-
----
-
 ## 🛠️ Tech Stack
 
 <p align="center">
@@ -80,7 +71,7 @@
 ---
 
 ## 📂 Folder Structure
-📦 Advanced-Python-Series
+📦 Advance-Python-13-days-series
 ┣ 📁 Day-01
 ┣ 📁 Day-02
 ┣ 📁 Day-03
@@ -99,16 +90,6 @@
 
 ---
 
-## 📸 Visual Showcase
-
-<p align="center">
-  <img src="YOUR_IMAGE_1" width="30%" />
-  <img src="YOUR_IMAGE_2" width="30%" />
-  <img src="YOUR_IMAGE_3" width="30%" />
-</p>
-
----
-
 ## 💖 Support
 
 If you find this helpful, please give it a ⭐ and share with others!
@@ -118,10 +99,7 @@ If you find this helpful, please give it a ⭐ and share with others!
 ## 🤝 Connect With Me
 
 <p align="center">
-  <a href="YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-00BFFF?style=for-the-badge&logo=linkedin"/>
-  </a>
-  <a href="YOUR_GITHUB">
+  <a href="https://github.com/Mahak-Tech-05">
     <img src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github"/>
   </a>
 </p>
