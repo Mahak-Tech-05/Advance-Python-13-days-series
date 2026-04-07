@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury Login</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Floating particles */
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* 3D Card */
+.container {
+    width: 350px;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.5);
+    transform-style: preserve-3d;
+    transition: transform 0.2s ease;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.input-group {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    transition: 0.3s;
+}
+
+input:focus {
+    background: rgba(255,255,255,0.2);
+    transform: scale(1.05);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* Links */
+.link {
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+}
+
+.link a {
+    color: #00c6ff;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+/* Error */
+.error {
+    color: #ff6b6b;
+    text-align: center;
+    margin-bottom: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<canvas id="particles"></canvas>
+
+<div class="container" id="card">
+    <h2>Welcome Back</h2>
+
+    {% if error %}
+        <div class="error">{{ error }}</div>
+    {% endif %}
+
+    <form method="POST" action="/login">
+        <div class="input-group">
+            <input type="email" name="email" placeholder="Email" required>
+        </div>
+
+        <div class="input-group">
+            <input type="password" name="password" placeholder="Password" required>
+        </div>
+
+        <button>Login</button>
+    </form>
+
+    <div class="link">
+        <p>Don't have an account?</p>
+        <a href="/register">Register</a>
+    </div>
+</div>
+
+<script>
+/* ===== 3D TILT EFFECT ===== */
+const card = document.getElementById("card");
+
+document.addEventListener("mousemove", (e) => {
+    let x = (window.innerWidth / 2 - e.pageX) / 20;
+    let y = (window.innerHeight / 2 - e.pageY) / 20;
+    card.style.transform = `rotateY(${x}deg) rotateX(${y}deg)`;
+});
+
+/* ===== PARTICLES BACKGROUND ===== */
+const canvas = document.getElementById("particles");
+const ctx = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let particles = [];
+
+for (let i = 0; i < 80; i++) {
+    particles.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        r: Math.random() * 2,
+        d: Math.random() * 1
+    });
+}
+
+function drawParticles() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = "white";
+
+    particles.forEach(p => {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fill();
+    });
+
+    updateParticles();
+}
+
+function updateParticles() {
+    particles.forEach(p => {
+        p.y += p.d;
+        if (p.y > canvas.height) {
+            p.y = 0;
+            p.x = Math.random() * canvas.width;
+        }
+    });
+}
+
+setInterval(drawParticles, 33);
+</script>
+
+</body>
+</html>
